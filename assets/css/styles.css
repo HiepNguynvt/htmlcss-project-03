@@ -113,9 +113,6 @@ a {
 }
 
 /* Navbar */
-.navbar {
-}
-
 .navbar__list {
     display: flex;
 }
