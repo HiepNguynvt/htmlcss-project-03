@@ -163,6 +163,7 @@ a {
 .action__login:hover {
     background-color: #062d5296;
     color: #fff;
+    font-weight: 400;
 }
 
 .action__signup {
