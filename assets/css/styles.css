@@ -611,10 +611,13 @@ a {
 }
 
 .install__btn-img {
-    transition: .25s;
+    transition: 0.25s;
 }
 
 .install__btn:hover .install__btn-img {
     background-color: #4d98de;
     border-radius: 6px;
 }
+
+/* ===================== News ===================== */
+
