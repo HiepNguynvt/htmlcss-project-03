@@ -833,6 +833,13 @@ select {
     width: 205px;
 }
 
+.appointment__tel {
+    color: #575F66;
+font-size: 1.6rem;
+font-weight: 300;
+line-height: 2.8rem; /* 175% */
+}
+
 /* ===================== Footer ===================== */
 .footer {
     margin-top: 170px;
