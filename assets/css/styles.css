@@ -326,7 +326,8 @@ select {
 
 /* ===================== Services ===================== */
 .service {
-    padding: 170px;
+    margin-top: 84px;
+    padding: 86px;
 }
 
 .service .section-heading,
@@ -544,7 +545,8 @@ select {
 
 /* ===================== Member ===================== */
 .member {
-    margin-top: 170px;
+    margin-top: 84px;
+    padding-top: 86px;
 }
 
 .section-heading {
@@ -906,6 +908,7 @@ select {
 }
 
 .footer__sub-desc {
+    width: 273px;
     color: #a9b3bb;
     font-size: 1.4rem;
     font-weight: 400;
