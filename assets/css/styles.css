@@ -502,7 +502,7 @@ a {
     object-fit: contain;
     height: 290px;
     width: 262px;
-    transition: transform .25s
+    transition: transform 0.25s;
 }
 
 .member-item:hover .member-item__thumb {
@@ -544,8 +544,8 @@ a {
     border: 1px solid #575f66;
     border-radius: 50%;
     background-color: #fff;
-    color: #575F66;
-    transition: background-color .25s, color .25s, border-color .25s;
+    color: #575f66;
+    transition: background-color 0.25s, color 0.25s, border-color 0.25s;
 }
 
 .member__control-next-icon {
@@ -554,10 +554,67 @@ a {
 
 .member__control-btn:hover {
     cursor: pointer;
-    background-color: #2E80CE;
-    border-color: #2E80CE;
+    background-color: #2e80ce;
+    border-color: #2e80ce;
     color: #fff;
 }
 
 /* ===================== Install app ===================== */
+.install {
+    margin-top: 170px;
+}
 
+.install__inner {
+    display: flex;
+    padding: 0px 70px 0px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+
+.install__img {
+    display: block;
+    margin-top: -95px;
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading {
+    width: 489px;
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 6rem; /* 120% */
+    letter-spacing: -0.1rem;
+    text-align: left;
+}
+
+.install__desc {
+    margin-top: 18px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 3rem; /* 166.667% */
+}
+
+.install__row {
+    margin-top: 38px;
+    display: flex;
+    padding: 0;
+    gap: 28px;
+}
+
+.install__btn-img {
+    transition: .25s;
+}
+
+.install__btn:hover .install__btn-img {
+    background-color: #4d98de;
+    border-radius: 6px;
+}
