@@ -291,6 +291,13 @@ select {
     line-height: 3rem; /* 166.667% */
 }
 
+.hero__phonenumber {
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
 .hero__media {
     flex-grow: 1;
 }
@@ -834,10 +841,10 @@ select {
 }
 
 .appointment__tel {
-    color: #575F66;
-font-size: 1.6rem;
-font-weight: 300;
-line-height: 2.8rem; /* 175% */
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.8rem; /* 175% */
 }
 
 /* ===================== Footer ===================== */
